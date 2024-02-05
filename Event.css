@@ -1,0 +1,55 @@
+/* Add the following styles to your existing styles.css file */
+
+body {
+    background:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT85eX1CL-3kGZaccWuEmA0KuYbM0oeA1MvFA&usqp=CAU");
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    
+    
+}
+
+.container {
+    background:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT85eX1CL-3kGZaccWuEmA0KuYbM0oeA1MvFA&usqp=CAU");
+    max-width: 400px;
+    margin: auto;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 2px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    color:aqua;
+    text-align: center;
+
+}
+
+form {
+    color:aqua;
+    display: flex;
+    flex-direction:column;
+    max-width:80px
+    margin:auto
+    
+}
+
+label {
+    margin-bottom:8px;
+}
+
+input{
+    margin-bottom:8px;
+    padding:10px
+}
+button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
