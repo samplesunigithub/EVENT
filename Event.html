@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BTS Concert Registration</title>
+    <link rel="stylesheet" href="bts2.css">
+</head>
+<body>
+    <div class="container">
+    
+        <header>
+            <center><h1><p>BTS CONCERT REGISTRATION</p></h1></center>
+            
+        </header>
+        
+       <center><section id="registration-form">
+            <form id="bts-registration-form">
+                
+                <label for="full-name">Full Name:</label>
+                <input type="text" id="full-name" name="full-name" required>
+            
+            
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+             
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" required>
+        
+                <br><label for="ticket-type">Ticket Type:</label>
+                <select id="ticket-type" name="ticket-type" required>
+                    <option value="general">General Admission</option>
+                    <option value="vip">VIP</option>
+                    <option value="premium">Premium</option>
+                </select></br>
+                <label for="credit-card">Payment Method:</label>
+                <input type="radio" id="credit-card" name="payment-method" value="credit-card" checked>
+                <label for="paypal">Credit Card</label>
+                <input type="radio" id="paypal" name="payment-method" value="paypal">
+                <label for="paypal">PayPal</label></br>
+            
+                <section><button type="submit">Register</button>
+                </section>
+            </form></center></section></div>
+        
+         <script src="script.js"></script>
+</body>
+</html>
